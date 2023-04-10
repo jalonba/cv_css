@@ -1,0 +1,56 @@
+.container {
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-color: black;
+  height: 500px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px;
+}
+
+img {
+  align-content: center;
+  border-radius: 60px;
+  margin-left: 140px;
+}
+.section1 {
+  flex-direction: column;
+  background-color: rgb(158, 205, 202);
+  justify-content: center;
+  margin-left: 30px;
+  width: 460px;
+  height: 900px;
+  float: left;
+}
+.section2 {
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  margin-left: 30px;
+  width: 470px;
+  height: 700px;
+  align-content: first baseline;
+  float: left;
+}
+h2 {
+  background-color: rgb(102, 106, 157);
+  text-align: center;
+  color: white;
+}
+.center {
+  text-align: center;
+  color: black;
+}
+p {
+  text-align: justify;
+}
+
+.form input {
+  display: table-cell;
+  margin-bottom: 20px;
+}
+.form label {
+  width: 200px;
+  padding-right: 5%;
+  text-align: left;
+}
